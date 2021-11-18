@@ -1,0 +1,23 @@
+{
+  "type":"record",
+  "name":"responseRecord",
+  "namespace":"usatu",
+  "fields":[
+    {
+      "name": "student",
+      "type": "string"
+    },
+    {
+      "name":"original_message",
+      "type":"string"
+    },
+    {
+      "name":"original_message_ts",
+      "type":{
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ]
+}
+

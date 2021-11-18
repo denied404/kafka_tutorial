@@ -1,0 +1,18 @@
+{
+  "type":"record",
+  "name":"sourceRecord",
+  "namespace":"usatu",
+  "fields":[
+    {
+      "name":"message",
+      "type":"string"
+    },
+    {
+      "name":"ts",
+      "type":{
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ]
+}

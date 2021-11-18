@@ -1,0 +1,4 @@
+export TF_VAR_schema_registry_url="http://localhost:8081"
+export TF_VAR_kafka_bootstrap_servers="[\"localhost:9092\"]"
+export TF_VAR_kafka_topic_default_replication_factor=1
+export TF_VAR_kafka_topic_default_partitions=1

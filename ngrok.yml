@@ -1,0 +1,9 @@
+authtoken: %CHANGE THIS TO A REAL ngrok AUTH TOKEN%
+
+tunnels:
+  kafka:
+    addr: 9092 
+    proto: tcp
+  schema_registry:
+    addr: 8081 
+    proto: http
